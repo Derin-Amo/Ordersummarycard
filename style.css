@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 30px;
+    
+}
+.card{
+    border-radius: 25px;
+}
+.top{
+    border-radius:25px 25px 0px 0px;
+}
+.bg-image{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top  -30% center;
+    background-color: hsl(225, 100%, 94%);
+}
+.btn-primary{
+    background-color: hsl(245, 75%, 52%);
+}
+a{
+    color: hsl(245, 75%, 52%);
+   }
+   a:hover{
+       color: rgb(95, 86, 218);
+   }
+.card-title, .card-text{ display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.Price-section{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 10px;
+    background-color:hsl(225, 100%, 98%);
+    border-radius: 15px;
+
+
+}
+
+.Plan{
+    padding-top: 20px;
+    padding-left: 25px;
+    line-height: 5px
+    }
+
+.change-btn{
+    padding-left: 85px;
+    padding-top: 10px;
+}
+.iconmusic{
+    width: 50px;
+    height: 10px;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.cancel-order{
+    text-align: center;
+    padding-bottom: 40px;
+}
